@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body><div class="mid_cont">
+ <form id="form1" method="post">  
+    <div>                
+    </div>   
+    <h2 align="center"> Register Yourself</h2>  
+    <table id="table1"; cellspacing="5px" cellpadding="5%"; align="center">  
+       <tr>  
+              <td  align="right" class="style1">Name</td>  
+              <td class="style1"><input type="text" name="nm" placeholder="Full Name" autofocus /></td>  
+       </tr>  
+       <tr>  
+              <td align="right">Father's Name</td>  
+              <td class="style1"><input type="text" name="fnm" placeholder="Full Name" /></td>  
+        </td>  
+       </tr>  
+       <tr>  
+              <td align="right">Date of Birth</td>  
+              <td><input type="Date" value="2019-02-20" /></td>  
+       </tr>  
+       <tr>  
+              <td align="right">Contact Number</td>  
+              <td><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Contact Number"required /></td>  
+       </tr>  
+       <tr>  
+              <td align="right">Gender</td>  
+              <td><input type="radio" value="Male" name="gen" checked />Male
+          <input type="radio" value="Female" name="gen"  />Female
+          <input type="radio" value="Others" name="gen"  />Others</td>  
+       </tr>  
+       <tr>  
+              <td align="right">Permanent Address</td>  
+              <td><textarea rows="4" cols="50"></textarea></td>  
+       </tr>  
+            <tr>  
+              <td align="right">City</td>  
+              <td><input list="Cities">
+          	<datalist id="Cities">
+          		    <option value="Delhi"></option>
+          			<option value="Rewari"></option>
+          			<option value="Mumbai"></option>
+          			<option value="Kolkata"></option>
+          			<option value="Kochi"></option>
+          			<option value="Chennai"></option>
+          			<option value="Kanpur"></option>
+             </datalist></td>  
+       </tr> 
+          <tr>  
+              <td align="right">Postal Code</td>  
+              <td><input type="text" name="c_code" pattern="[A-Za-z]{3}" title="Three Letter PinCode"/></td>  
+       </tr> 
+<tr>  
+              <td align="right">Courses applied for</td>  
+              <td><input type="checkbox" value="BBA" id="in_check">BBA
+            <input type="checkbox" value="BCA">BCA
+            <input type="checkbox" value="MBA">MBA
+            <input type="checkbox" value="MCA">MCA</td>  
+       </tr> 
+
+
+
+       <tr>  
+              <td valign="top" align="right">Email</td>  
+              <td><input type="email" placeholder="Enter Email Id" required/></td>  
+       </tr>  
+      
+       <tr>  
+              <td valign="top" align="right">Password</td>  
+              <td><input type="Password" placeholder="Create Password"/></td>  
+       </tr> 
+
+ <tr>  
+              <td valign="top" align="right">Confirm Password</td>  
+              <td><input type="Password" placeholder="Retype Password"/></td>  
+       </tr>   
+      
+        <tr> 
+        <td> <input type="button" id="but" value="Submit" align="right"/>  
+        <td> <input type="button" id="but" value="Reset" />         
+        </td>  
+        </tr>  
+</table>   
+    </form>  
+</div>
+</body>
+</html>

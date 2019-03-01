@@ -1,0 +1,60 @@
+body
+{
+	
+	background-image: url("C:/Users/Meghna/Desktop/javaPractice/web/images/image.jpg");
+   background-size: cover;
+    	
+
+    background-repeat: no-repeat;
+   
+ }
+
+ .mid_cont
+ {
+ 	border:2px solid black;
+ 	border-radius: 25px;
+ 	position: relative;
+ 	height: auto;
+ 	width: 50%;
+ 	left: 25%;
+   background-color: black;
+   opacity: 0.7;
+   t
+ }
+ h2
+ {
+ 	color: cyan;
+ 	font-size: 230%;
+ }
+
+ td
+ {
+ 	color: white;
+ 	font-size: 130%;
+ }
+
+ input
+ {  border-color: grey;
+    border-radius: 25px;
+    border:1px solid transparent;
+    color: grey;
+    padding: 7px;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+ }
+ #in_check
+ {
+ 	border-color: white;
+    color: white;
+ }
+ #but
+ {
+ 	color: cyan;
+ 	text-align: center;
+ 	position: relative;
+ 	left: 100px;
+ 	background-color:#666666;
+ 	opacity: 1;
+    height: 60px;
+    width: 140px;
+    border-color: cyan;
+ }
